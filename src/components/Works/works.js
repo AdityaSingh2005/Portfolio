@@ -14,7 +14,7 @@ const Works = () => {
             <a href="" ><img src={Portfolio2} alt="Portfolio-2" className="worksImg" /></a>
             <a href="http://geekroom.in/" ><img src={Portfolio3} alt="Portfolio-3" className="worksImg" /></a>
            </div>
-           < a href="https://drive.google.com/file/d/1ww50tqZw3t0MmfCGtEtEuF591G5o9Rzi/view?usp=sharing"><button className="worksBtn">My Resume</button></a>
+           < a href="https://drive.google.com/file/d/1axi0uIgwbexVBexF7gGmq-1EPvbZjeEm/view?usp=sharing"><button className="worksBtn">My Resume</button></a>
         </section>
     )
 }
