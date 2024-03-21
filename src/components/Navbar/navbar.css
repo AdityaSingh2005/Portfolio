@@ -26,9 +26,9 @@
 }
 
 .desktopMenuListItem:hover{
-    color: yellow;
+    color: #40E0D0;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid #40E0D0;
 }
 
 .desktopMenuBtn{
@@ -50,7 +50,7 @@
     margin: 1rem;
 }
 .active{
-    color: yellow;
+    color: #40E0D0;
 }
 
 .mobMenu{
@@ -81,7 +81,7 @@
     cursor: pointer;
 }
 .ListItem:hover{
-    color: yellow;
+    color: #40E0D0;
 }
 @media screen and (max-width:720px) {
     .mobMenu{
