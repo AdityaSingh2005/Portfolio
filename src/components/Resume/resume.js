@@ -10,7 +10,7 @@ const Resume = () => {
       <div className="pdfContainer">
         <iframe
           title="Resume PDF"
-          src="https://drive.google.com/file/d/1YgSQUd1pHYlVBFtwa9uik8818ZZ5GgvX/preview"
+          src="https://drive.google.com/file/d/1Gnd0_ahWyqD5y_vDNjT4T-tXoNKhqM8m/view?usp=sharing"
           width="100%"
           height="100%" 
           frameborder="0"
