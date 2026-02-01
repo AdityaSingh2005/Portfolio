@@ -15,7 +15,7 @@ export default function Projects() {
   return (
     <div className="w-full max-w-5xl mx-auto px-6 py-12">
       <h2 className="text-4xl font-bold mb-12 text-center text-zinc-900 dark:text-zinc-100">
-        Projects
+        Personal Projects
       </h2>
 
       <div className="px-12">

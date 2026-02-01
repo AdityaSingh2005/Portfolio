@@ -22,25 +22,25 @@ interface ExperienceEntry {
   };
 }
 
-// Parse date string to Date object
+
 const parseDate = (dateStr: string): Date => {
   const [year, month] = dateStr.split("-").map(Number);
   return new Date(year, month - 1);
 };
 
-// Format date for display
+
 const formatDate = (dateStr: string): string => {
   const date = parseDate(dateStr);
   return date.toLocaleDateString("en-US", { month: "short", year: "numeric" });
 };
 
-// Generate timeline markers (years with quarters)
+
 const generateTimelineMarkers = (
   startDate: Date,
   endDate: Date
 ): { date: Date; label: string; isYear: boolean }[] => {
   const markers: { date: Date; label: string; isYear: boolean }[] = [];
-  const current = new Date(startDate.getFullYear(), 0); // Start from January of start year
+  const current = new Date(startDate.getFullYear(), 0);
 
   while (current <= endDate) {
     const isYear = current.getMonth() === 0;
@@ -51,7 +51,7 @@ const generateTimelineMarkers = (
         : current.toLocaleDateString("en-US", { month: "short" }),
       isYear,
     });
-    current.setMonth(current.getMonth() + 3); // Every quarter
+    current.setMonth(current.getMonth() + 3);
   }
 
   return markers;
@@ -60,7 +60,7 @@ const generateTimelineMarkers = (
 export default function Experience() {
   const experiences = experienceData as ExperienceEntry[];
 
-  // Calculate timeline bounds
+
   const { timelineStart, timelineEnd, totalMonths, markers } = useMemo(() => {
     const allDates = experiences.flatMap((exp) => [
       parseDate(exp.startDate),
@@ -70,14 +70,14 @@ export default function Experience() {
     const minDate = new Date(Math.min(...allDates.map((d) => d.getTime())));
     const now = new Date();
 
-    // Calculate months from earliest experience to now
+
     const monthsFromMinToNow =
       (now.getFullYear() - minDate.getFullYear()) * 12 +
       (now.getMonth() - minDate.getMonth());
 
-    // Add small padding on the left, and match equal time on the right to center present
-    const leftPadding = 3; // 3 months before earliest
-    const rightPadding = leftPadding; // Equal padding on right to center present
+
+    const leftPadding = 3;
+    const rightPadding = leftPadding;
 
     const startDate = new Date(minDate);
     startDate.setMonth(startDate.getMonth() - leftPadding);
@@ -97,7 +97,7 @@ export default function Experience() {
     };
   }, [experiences]);
 
-  // Calculate position and width for each experience bar
+
   const getBarStyle = (exp: ExperienceEntry) => {
     const start = parseDate(exp.startDate);
     const end = exp.endDate ? parseDate(exp.endDate) : new Date();
@@ -117,7 +117,7 @@ export default function Experience() {
     return { left: `${left}%`, width: `${width}%` };
   };
 
-  // Calculate marker position
+
   const getMarkerPosition = (date: Date) => {
     const offset =
       (date.getFullYear() - timelineStart.getFullYear()) * 12 +
@@ -130,7 +130,7 @@ export default function Experience() {
       id="experience"
       className="font-geist-sans w-full bg-white py-16 md:py-24"
     >
-      {/* Header - centered with max-width */}
+
       <div className="mx-auto max-w-5xl px-6 md:px-12">
         <div className="mb-16 text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 md:text-4xl">
@@ -139,17 +139,19 @@ export default function Experience() {
         </div>
       </div>
 
-      {/* Timeline Container - TRUE full width */}
-      <div className="w-full px-4 md:px-8 pb-8">
+
+      <div className="w-full px-4 hidden md:block md:px-8 md:pb-8">
         <div className="relative">
-          {/* Experience Bars Container - increased height for 3 rows */}
+
           <div className="relative h-36 mb-4">
             {experiences.map((exp) => {
               const barStyle = getBarStyle(exp);
-              const rowIndex = exp.row; // Use row from JSON data
+              const rowIndex = exp.row;
 
               return (
-                <Tooltip
+                <React.Fragment key={exp.id}>
+
+                  {/* <Tooltip
                   key={exp.id}
                   content={
                     <div className="space-y-2">
@@ -184,8 +186,9 @@ export default function Experience() {
                       )}
                     </div>
                   }
-                >
+                > */}
                   <div
+                    key={exp.id}
                     className="absolute h-10 rounded-md cursor-pointer transition-all duration-200 hover:scale-y-110 hover:shadow-lg group"
                     style={{
                       ...barStyle,
@@ -194,7 +197,7 @@ export default function Experience() {
                       opacity: 0.9,
                     }}
                   >
-                    {/* Open-ended indicator for current role */}
+
                     {exp.isCurrentRole && (
                       <div
                         className="absolute right-0 top-0 bottom-0 w-4 overflow-hidden"
@@ -215,21 +218,23 @@ export default function Experience() {
                       </div>
                     )}
 
-                    {/* Inner content - company initial */}
+
                     <div className="h-full flex items-center justify-center px-3">
                       <span className="text-white text-sm font-medium truncate opacity-90">
                         {exp.company}
                       </span>
                     </div>
                   </div>
-                </Tooltip>
+                  {/* </Tooltip> */}
+
+                </React.Fragment>
               );
             })}
           </div>
 
-          {/* Main Timeline Line */}
+
           <div className="relative h-px bg-gray-200">
-            {/* Timeline markers */}
+
             {markers.map((marker, idx) => {
               const position = getMarkerPosition(marker.date);
               return (
@@ -238,12 +243,12 @@ export default function Experience() {
                   className="absolute -translate-x-1/2"
                   style={{ left: `${position}%` }}
                 >
-                  {/* Tick mark */}
+
                   <div
                     className={`w-px bg-gray-300 ${marker.isYear ? "h-3 -mt-1.5" : "h-2 -mt-1"
                       }`}
                   />
-                  {/* Label */}
+
                   <p
                     className={`mt-2 whitespace-nowrap ${marker.isYear
                       ? "text-sm font-medium text-gray-700"
@@ -259,7 +264,7 @@ export default function Experience() {
         </div>
       </div>
 
-      {/* Experience Cards for detailed view - centered with max-width */}
+
       <div className="mx-auto max-w-5xl px-6 md:px-12">
         <div className="mt-16 grid gap-6 md:grid-cols-2">
           {experiences.map((exp) => (
@@ -267,7 +272,7 @@ export default function Experience() {
               key={exp.id}
               className="relative rounded-md border border-gray-100 bg-gray-50/50 p-3 transition-shadow"
             >
-              {/* Color accent */}
+
               <div
                 className="absolute left-0 top-4 bottom-4 w-1 rounded-full"
                 style={{ backgroundColor: exp.color }}
@@ -302,7 +307,7 @@ export default function Experience() {
                   {exp.tooltipContent.description}
                 </p>
 
-                {/* Technologies */}
+
                 <div className="mt-3 flex flex-wrap gap-1.5">
                   {exp.tooltipContent.technologies.map((tech) => (
                     <span
@@ -318,6 +323,6 @@ export default function Experience() {
           ))}
         </div>
       </div>
-    </section>
+    </section >
   );
 }

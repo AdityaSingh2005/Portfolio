@@ -35,7 +35,7 @@ export default function Certifications() {
               </p>
             </div>
 
-            <div className="ml-auto hidden group-hover:block">
+            <div className="ml-auto block md:hidden group-hover:block">
               <a
                 href={cert.url}
                 target="_blank"

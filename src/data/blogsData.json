@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "A quick overview to Docker",
+        "description": "As an engineer, I use Docker commands daily to run my applications. If you’re also someone who needs a quick overview of Docker along with the commonly used commands, you’re in the right place.",
+        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*zty9_LXl6CJuQ-7F0_dbOw.png",
+        "link": "https://medium.com/@adiii11/a-quick-overview-to-docker-cfadd52a380d",
+        "date": "Jan 24, 2026"
+    },
+    {
+        "id": 2,
+        "title": "How server actually works?",
+        "description": "So, I'm currently in the pre-final year of my graduation and working as a Frontend Engineer Intern at a startup called “Bynd AI”. Honestly, I’m not sure if it’s just the early spark of my career, but every single day feels exciting. There’s something incredibly fulfilling about going to the office, sitting down with a bunch of brilliant people, solving real problems, and slowly peeling back the layers of how the apps we use every day actually work behind the scenes.",
+        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*4jfeJxINsMcrZZGGJNfGCQ.png",
+        "link": "https://medium.com/@adiii11/how-server-actually-works-7fcce6b870bc",
+        "date": "Jun 2, 2025"
+    }
+]
