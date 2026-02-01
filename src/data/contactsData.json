@@ -1,0 +1,29 @@
+[
+    {
+        "id": "contact-1",
+        "label": "Location",
+        "value": "New Delhi, India",
+        "type": "external"
+    },
+    {
+        "id": "contact-2",
+        "label": "Phone",
+        "value": "+91 9315920610",
+        "href": "tel:+9315920610",
+        "type": "phone"
+    },
+    {
+        "id": "contact-3",
+        "label": "LinkedIn",
+        "value": "Aditya Singh",
+        "href": "https://www.linkedin.com/in/adiii11/",
+        "type": "external"
+    },
+    {
+        "id": "contact-4",
+        "label": "Email",
+        "value": "adityasinghwork11@gmail.com",
+        "href": "mailto:adityasinghwork11@gmail.com",
+        "type": "email"
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "category": "Languages and Development",
+        "skills": [
+            "Python",
+            "TypeScript",
+            "JavaScript",
+            "C/C++",
+            "HTML-CSS",
+            "React",
+            "Next",
+            "Node.js",
+            "Express.js",
+            "NestJS",
+            "FastAPI",
+            "Generative AI"
+        ]
+    },
+    {
+        "category": "Database and Cloud",
+        "skills": [
+            "PostgreSQL",
+            "Pinecone",
+            "Redis",
+            "Firebase",
+            "Docker",
+            "Kubernetes",
+            "Azure",
+            "Vercel",
+            "GitHub Actions (CI/CD)"
+        ]
+    }
+]

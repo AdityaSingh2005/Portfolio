@@ -12,14 +12,14 @@ export default function Home() {
   return (
     <div className="relative">
       {/* Scrollable graffiti: each decoration starts in one section and ends in another */}
-      <PageDecorations />
+      {/* <PageDecorations /> */}
       <div className="relative z-10 flex min-h-screen w-full flex-col items-center justify-start">
         <LandingPage />
         <About />
+        <Skills />
         <Experience />
         <Projects />
         <Certifications />
-        <Skills />
         <Blogs />
         <Contacts />
       </div>

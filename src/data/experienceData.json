@@ -1,0 +1,103 @@
+[
+    {
+        "id": "exp-1",
+        "company": "Bynd AI",
+        "position": "Software Engineer",
+        "color": "#6366f1",
+        "startDate": "2024-05",
+        "endDate": null,
+        "isCurrentRole": true,
+        "row": 0,
+        "companyUrl": "https://bynd.ai",
+        "tooltipContent": {
+            "description": "Building AI-powered financial data extraction systems and news aggregation platforms. Developed production-ready document processing pipelines with BullMQ and Redis caching, reducing chunking time from 5 minutes to under 60 seconds.",
+            "achievements": [
+                "Built AI-powered financial data extraction from company filings",
+                "Designed NLP-based recommendation engine with topic modeling",
+                "Automated newsletter generation with Next.js and FastAPI",
+                "Integrated Azure Document Intelligence for OCR"
+            ],
+            "technologies": []
+        }
+    },
+    {
+        "id": "exp-2",
+        "company": "IcuPad India",
+        "position": "Backend Engineer",
+        "color": "#f59e0b",
+        "startDate": "2024-11",
+        "endDate": "2025-01",
+        "isCurrentRole": false,
+        "row": 1,
+        "companyUrl": "https://icupad.com",
+        "tooltipContent": {
+            "description": "Developed AI-powered features for a legal tech document management system, including document parsing, NLP-based extraction, and summarization using Transformers.",
+            "achievements": [
+                "Implemented auto-fill legal workflows with LLMs reducing manual data entry by 90%",
+                "Built automation pipelines with FastAPI and PostgreSQL",
+                "Integrated ML-driven validation pipelines for document classification"
+            ],
+            "technologies": []
+        }
+    },
+    {
+        "id": "exp-3",
+        "company": "Figr",
+        "position": "Software Engineer Intern",
+        "color": "#10b981",
+        "startDate": "2024-10",
+        "endDate": "2024-12",
+        "isCurrentRole": false,
+        "row": 2,
+        "companyUrl": "https://figr.design",
+        "tooltipContent": {
+            "description": "Built an AI-driven design automation system that generated Figma screens, layouts, and UI components from text prompts using TypeScript, Next, and FastAPI.",
+            "achievements": [
+                "Integrated AI models with prompt engineering for dynamic design generation",
+                "Built asynchronous backend automation pipelines",
+                "Enabled concurrent processing and scalable API integrations"
+            ],
+            "technologies": []
+        }
+    },
+    {
+        "id": "exp-4",
+        "company": "Hearing Hope",
+        "position": "Full Stack Developer",
+        "color": "#ec4899",
+        "startDate": "2024-01",
+        "endDate": "2024-03",
+        "isCurrentRole": false,
+        "row": 1,
+        "companyUrl": "https://hearinghope.in",
+        "tooltipContent": {
+            "description": "Worked on improving the health of the community by building digital solutions for high-quality, comprehensive hearing care services.",
+            "achievements": [
+                "Built full-stack web applications",
+                "Developed user-friendly interfaces for healthcare platform",
+                "Implemented backend services for patient management"
+            ],
+            "technologies": []
+        }
+    },
+    {
+        "id": "exp-5",
+        "company": "CLUMOSS",
+        "position": "Full Stack Developer",
+        "color": "#8b5cf6",
+        "startDate": "2023-11",
+        "endDate": "2024-02",
+        "isCurrentRole": false,
+        "row": 0,
+        "companyUrl": "https://clumoss.com",
+        "tooltipContent": {
+            "description": "Developed full-stack applications during internship, working on various web development projects.",
+            "achievements": [
+                "Built responsive web applications",
+                "Implemented REST APIs",
+                "Collaborated on agile development workflows"
+            ],
+            "technologies": []
+        }
+    }
+]

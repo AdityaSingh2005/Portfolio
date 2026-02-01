@@ -1,0 +1,9 @@
+[
+    {
+        "id": "cert-1",
+        "imageUrl": "/microsoft.png",
+        "title": "Azure Fundamentals (AZ-900)",
+        "issuedOn": "Feb 2026",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "id": "proj-1",
+        "imageUrl": "/vercel.svg",
+        "title": "AI Newsletter Generator",
+        "description": [
+            "Automated newsletter creation using GPT-4 and diff-diffusion models",
+            "Scrapes latest tech news and summarizes it into digestible formats",
+            "Integrated with SendGrid for automated email delivery"
+        ],
+        "githubUrl": "https://github.com/adityasingh/newsletter-gen",
+        "liveUrl": "https://newsletter-gen.demo.com"
+    },
+    {
+        "id": "proj-2",
+        "imageUrl": "/vercel.svg",
+        "title": "Financial Data Dashboard",
+        "description": [
+            "Real-time visualization of stock market data using D3.js",
+            "Implemented server-side caching with Redis for sub-millisecond latency",
+            "Secure user authentication via NextAuth and PostgreSQL"
+        ],
+        "githubUrl": "https://github.com/adityasingh/finance-dash",
+        "liveUrl": "https://finance.demo.com"
+    },
+    {
+        "id": "proj-3",
+        "imageUrl": "/vercel.svg",
+        "title": "Healthcare Management System",
+        "description": [
+            "Patient record management system with HIPAA compliance",
+            "Appointment scheduling with calendar integration",
+            "Telemedicine video conferencing using WebRTC"
+        ],
+        "githubUrl": "https://github.com/adityasingh/health-sys",
+        "liveUrl": "https://health.demo.com"
+    }
+]
