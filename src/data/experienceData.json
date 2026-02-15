@@ -21,32 +21,12 @@
         }
     },
     {
-        "id": "exp-2",
-        "company": "IcuPad India",
-        "position": "Backend Engineer",
-        "color": "#f59e0b",
-        "startDate": "2024-11",
-        "endDate": "2025-01",
-        "isCurrentRole": false,
-        "row": 1,
-        "companyUrl": "https://icupad.com",
-        "tooltipContent": {
-            "description": "Developed AI-powered features for a legal tech document management system, including document parsing, NLP-based extraction, and summarization using Transformers.",
-            "achievements": [
-                "Implemented auto-fill legal workflows with LLMs reducing manual data entry by 90%",
-                "Built automation pipelines with FastAPI and PostgreSQL",
-                "Integrated ML-driven validation pipelines for document classification"
-            ],
-            "technologies": []
-        }
-    },
-    {
         "id": "exp-3",
         "company": "Figr",
         "position": "Software Engineer Intern",
         "color": "#10b981",
-        "startDate": "2024-10",
-        "endDate": "2024-12",
+        "startDate": "2024-03",
+        "endDate": "2024-05",
         "isCurrentRole": false,
         "row": 2,
         "companyUrl": "https://figr.design",
@@ -61,21 +41,21 @@
         }
     },
     {
-        "id": "exp-4",
-        "company": "Hearing Hope",
-        "position": "Full Stack Developer",
-        "color": "#ec4899",
+        "id": "exp-2",
+        "company": "IcuPad India",
+        "position": "Backend Engineer",
+        "color": "#f59e0b",
         "startDate": "2024-01",
         "endDate": "2024-03",
         "isCurrentRole": false,
         "row": 1,
-        "companyUrl": "https://hearinghope.in",
+        "companyUrl": "https://icupad.com",
         "tooltipContent": {
-            "description": "Worked on improving the health of the community by building digital solutions for high-quality, comprehensive hearing care services.",
+            "description": "Developed AI-powered features for a legal tech document management system, including document parsing, NLP-based extraction, and summarization using Transformers.",
             "achievements": [
-                "Built full-stack web applications",
-                "Developed user-friendly interfaces for healthcare platform",
-                "Implemented backend services for patient management"
+                "Implemented auto-fill legal workflows with LLMs reducing manual data entry by 90%",
+                "Built automation pipelines with FastAPI and PostgreSQL",
+                "Integrated ML-driven validation pipelines for document classification"
             ],
             "technologies": []
         }
@@ -85,7 +65,7 @@
         "company": "CLUMOSS",
         "position": "Full Stack Developer",
         "color": "#8b5cf6",
-        "startDate": "2023-11",
+        "startDate": "2023-10",
         "endDate": "2024-02",
         "isCurrentRole": false,
         "row": 0,

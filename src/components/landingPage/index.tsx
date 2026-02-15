@@ -6,7 +6,7 @@ export default function LandingPage() {
     <div className="font-geist-sans flex min-h-screen flex-col items-center justify-center bg-white p-8">
       <div className="flex flex-col items-center justify-center gap-2 text-center">
         <p className="text-2xl font-normal text-gray-800">Hello,</p>
-        <h1 className="text-6xl font-semibold text-gray-900">
+        <h1 className="text-4xl md:text-6xl font-semibold text-gray-900">
           I am Aditya Singh
         </h1>
         <p className="text-2xl font-medium text-amber-600">

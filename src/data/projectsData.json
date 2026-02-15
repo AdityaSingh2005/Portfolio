@@ -1,38 +1,42 @@
 [
     {
         "id": "proj-1",
-        "imageUrl": "/vercel.svg",
-        "title": "AI Newsletter Generator",
+        "imageUrl": "/projects/videoProject.png",
+        "title": "Cloud-native AI video processing platform",
         "description": [
-            "Automated newsletter creation using GPT-4 and diff-diffusion models",
-            "Scrapes latest tech news and summarizes it into digestible formats",
-            "Integrated with SendGrid for automated email delivery"
+            "Architected and deployed a cloud-native AI video processing platform on Azure App Service with asynchronous processing using Azure Functions and Azure Service Bus for scalable, event-driven workflows.",
+            "Designed secure video ingestion and storage using Azure Blob Storage with lifecycle policies to optimize storage cost.",
+            "Implemented semantic vector search using Azure AI Search (vector indexing + custom scoring profiles) to enable low-latency contextual retrieval across large transcript datasets.",
+            "Integrated Azure OpenAI Service for transcription and summarization pipelines with structured output validation."
         ],
-        "githubUrl": "https://github.com/adityasingh/newsletter-gen",
-        "liveUrl": "https://newsletter-gen.demo.com"
+        "githubUrl": "https://github.com/AdityaSingh2005/Cloud-Native-AI-Video-Processing-Platform",
+        "liveUrl": ""
     },
     {
         "id": "proj-2",
-        "imageUrl": "/vercel.svg",
-        "title": "Financial Data Dashboard",
+        "imageUrl": "/projects/devtoolProject.png",
+        "title": "DevTools API Insight",
         "description": [
-            "Real-time visualization of stock market data using D3.js",
-            "Implemented server-side caching with Redis for sub-millisecond latency",
-            "Secure user authentication via NextAuth and PostgreSQL"
+            "Developed API Insight, a Chrome DevTools extension for advanced network traffic capture, analysis, and debugging with intelligent session auto-segmentation and real-time statistics.",
+            "Engineered advanced filtering capabilities to eliminate framework noise, static assets, third-party analytics, and preflight requests—dramatically improving API debugging efficiency.",
+            "Implemented deep content inspection with secure full-height previews for HTML, images, and PDFs embedded within JSON responses.",
+            "Built an instant request replay engine allowing modification of methods, headers, and payloads with automatic header sanitization to prevent CORS and browser-level errors."
         ],
-        "githubUrl": "https://github.com/adityasingh/finance-dash",
-        "liveUrl": "https://finance.demo.com"
+        "githubUrl": "https://github.com/AdityaSingh2005/DevTools-API-Insight",
+        "liveUrl": ""
     },
     {
         "id": "proj-3",
-        "imageUrl": "/vercel.svg",
-        "title": "Healthcare Management System",
+        "imageUrl": "/projects/chatProject.png",
+        "title": "Real Time Chat Application",
         "description": [
-            "Patient record management system with HIPAA compliance",
-            "Appointment scheduling with calendar integration",
-            "Telemedicine video conferencing using WebRTC"
+            "Built a real-time chat application with React.js and Firebase, focusing on simple, reliable messaging.",
+            "Enabled real-time communication using Firebase Realtime Database, so messages are instantly sent and received.",
+            "Added Google Authentication to make login easy and secure for users.",
+            "Restricted access so only logged-in users can join the chat room, keeping the conversation private.",
+            "Used Cloud Firestore to store messages, ensuring they are saved and can be accessed anytime."
         ],
-        "githubUrl": "https://github.com/adityasingh/health-sys",
-        "liveUrl": "https://health.demo.com"
+        "githubUrl": "https://github.com/AdityaSingh2005/Real-Time-Chat-Application-Using-ReactJs-Firebase",
+        "liveUrl": ""
     }
 ]

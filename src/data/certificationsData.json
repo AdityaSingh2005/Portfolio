@@ -1,9 +1,9 @@
 [
     {
         "id": "cert-1",
-        "imageUrl": "/microsoft.png",
-        "title": "Azure Fundamentals (AZ-900)",
+        "imageUrl": "/docker.png",
+        "title": "Docker Foundations Professional Certificate",
         "issuedOn": "Feb 2026",
-        "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/"
+        "url": "https://www.linkedin.com/learning/certificates/b05b13c75bbb1bef269ce43c244f2212fd44cc67fc4f7e0ed771072779f9f599"
     }
 ]

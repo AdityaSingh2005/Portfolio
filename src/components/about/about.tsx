@@ -26,7 +26,7 @@ export default function About() {
         <div className="grid gap-10 md:grid-cols-[minmax(0,1fr)_1.5fr] md:gap-14">
           {/* Left: Profile image */}
           <div className="flex justify-center md:justify-start">
-            <div className="relative h-[280px] w-[280px] overflow-hidden rounded-xl border border-gray-200 shadow-md md:h-[320px] md:w-[320px]">
+            <div className="relative h-[280px] w-[280px] overflow-hidden rounded-lg border border-gray-200 shadow-md md:h-[320px] md:w-[320px]">
               <Image
                 src="/proflie-image.jpeg"
                 alt="Aditya Singh"
@@ -63,7 +63,7 @@ export default function About() {
         </div>
 
         {/* Full-width stats & info card — text hierarchy: hero numbers > text values > labels */}
-        <div className="mt-10 w-full rounded-xl border border-gray-100 bg-gray-50/80 p-6">
+        <div className="mt-10 w-full rounded-lg border border-gray-100 bg-gray-50/80 p-6">
           <div className="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-10 lg:gap-y-10">
             {/* Row 1: numeric stats — largest (hero) size */}
             <div className="flex flex-col gap-1">
