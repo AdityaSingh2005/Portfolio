@@ -23,15 +23,15 @@
     {
         "id": "exp-3",
         "company": "Figr",
-        "position": "Software Engineer Intern",
+        "position": "Part-Time Frontend Engineer",
         "color": "#10b981",
-        "startDate": "2024-03",
-        "endDate": "2024-05",
+        "startDate": "2024-010",
+        "endDate": "2024-12",
         "isCurrentRole": false,
         "row": 2,
         "companyUrl": "https://figr.design",
         "tooltipContent": {
-            "description": "Built an AI-driven design automation system that generated Figma screens, layouts, and UI components from text prompts using TypeScript, Next, and FastAPI.",
+            "description": "Worked as a Part-Time Frontend Engineer at Figr, where I built reusable atoms, molecules, and UI components using the Figma Plugin API. These components formed the foundation for LLM-driven screen generation, enabling structured and scalable automated UI creation.",
             "achievements": [
                 "Integrated AI models with prompt engineering for dynamic design generation",
                 "Built asynchronous backend automation pipelines",
@@ -46,7 +46,7 @@
         "position": "Backend Engineer",
         "color": "#f59e0b",
         "startDate": "2024-01",
-        "endDate": "2024-03",
+        "endDate": "2024-05",
         "isCurrentRole": false,
         "row": 1,
         "companyUrl": "https://icupad.com",
