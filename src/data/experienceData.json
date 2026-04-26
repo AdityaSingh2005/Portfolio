@@ -22,8 +22,8 @@
     },
     {
         "id": "exp-3",
-        "company": "Figr",
-        "position": "Part-Time Frontend Engineer",
+        "company": "Figr Design",
+        "position": "Frontend Developer",
         "color": "#10b981",
         "startDate": "2024-010",
         "endDate": "2024-12",
@@ -43,7 +43,7 @@
     {
         "id": "exp-2",
         "company": "IcuPad India",
-        "position": "Backend Engineer",
+        "position": "Backend Engineer Intern",
         "color": "#f59e0b",
         "startDate": "2024-01",
         "endDate": "2024-05",
@@ -56,26 +56,6 @@
                 "Implemented auto-fill legal workflows with LLMs reducing manual data entry by 90%",
                 "Built automation pipelines with FastAPI and PostgreSQL",
                 "Integrated ML-driven validation pipelines for document classification"
-            ],
-            "technologies": []
-        }
-    },
-    {
-        "id": "exp-5",
-        "company": "CLUMOSS",
-        "position": "Full Stack Developer",
-        "color": "#8b5cf6",
-        "startDate": "2023-10",
-        "endDate": "2024-02",
-        "isCurrentRole": false,
-        "row": 0,
-        "companyUrl": "https://clumoss.com",
-        "tooltipContent": {
-            "description": "Developed full-stack applications during internship, working on various web development projects.",
-            "achievements": [
-                "Built responsive web applications",
-                "Implemented REST APIs",
-                "Collaborated on agile development workflows"
             ],
             "technologies": []
         }

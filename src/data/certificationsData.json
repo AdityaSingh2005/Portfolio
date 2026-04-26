@@ -5,5 +5,12 @@
         "title": "Docker Foundations Professional Certificate",
         "issuedOn": "Feb 2026",
         "url": "https://www.linkedin.com/learning/certificates/b05b13c75bbb1bef269ce43c244f2212fd44cc67fc4f7e0ed771072779f9f599"
+    },
+    {
+        "id": "cert-2",
+        "imageUrl": "/microsoft.png",
+        "title": "AZ-900: Microsoft Azure Fundamentals",
+        "issuedOn": "Apr 2026",
+        "url": "https://learn.microsoft.com/en-us/users/aditya-singh/credentials/23a4a6663e594e54?ref=https%3A%2F%2Fwww.linkedin.com%2F&source=docs"
     }
 ]
