@@ -15,7 +15,7 @@ export default function LandingPage() {
 
         <div className="mt-4 flex items-center gap-2">
         <a
-          href="https://drive.google.com/file/d/1JfBTspzAH6-nL5fBx9BcL2jkDqX0SNk5/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Zp3ZXIK_hSE3ogO3VrE0vWwaifHHTJXw/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 w-38 justify-center group rounded-lg bg-gray-900 px-6 py-3 text-base font-normal text-white transition hover:bg-gray-800"
